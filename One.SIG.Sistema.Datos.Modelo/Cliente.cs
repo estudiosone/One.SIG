@@ -8,6 +8,7 @@ namespace One.SIG.Sistema.Datos.Modelo
 {
     public class Cliente
     {
-        
+        public int Id { get; set; }
+        public Persona Persona { get; set; }
     }
 }
