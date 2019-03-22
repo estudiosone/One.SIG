@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "One.SIG.Sistema.Datos", "On
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "One.SIG.Sistema.Datos.Paradise", "One.SIG.Sistema.Datos.Paradise\One.SIG.Sistema.Datos.Paradise.csproj", "{7B5F9F74-020F-44E2-987F-C65744B482A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "One.SIG.Sistema.Datos.Modelo", "One.SIG.Sistema.Datos.Modelo\One.SIG.Sistema.Datos.Modelo.csproj", "{A23F2AB0-9E4F-4E01-82CA-8FD043DFC808}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7B5F9F74-020F-44E2-987F-C65744B482A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B5F9F74-020F-44E2-987F-C65744B482A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B5F9F74-020F-44E2-987F-C65744B482A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A23F2AB0-9E4F-4E01-82CA-8FD043DFC808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A23F2AB0-9E4F-4E01-82CA-8FD043DFC808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A23F2AB0-9E4F-4E01-82CA-8FD043DFC808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A23F2AB0-9E4F-4E01-82CA-8FD043DFC808}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

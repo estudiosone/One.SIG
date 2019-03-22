@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Paradise" Class="DBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=Server01;Initial Catalog=Paradise;Integrated Security=True" SettingsObjectName="One.SIG.Sistema.Datos.Paradise.Properties.Settings" SettingsPropertyName="ParadiseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.PASAJEROS" Member="PASAJEROS">
+    <Type Name="PASAJEROS">
+      <Column Name="PaxCod" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PaxRazon" Type="System.String" DbType="Char(40)" CanBeNull="true" />
+      <Column Name="PaxDirFac" Type="System.String" DbType="Char(40)" CanBeNull="true" />
+      <Column Name="PaxTipo" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="PaxNom" Type="System.String" DbType="Char(15)" CanBeNull="true" />
+      <Column Name="PaxNom1" Type="System.String" DbType="Char(15)" CanBeNull="true" />
+      <Column Name="PaxApe" Type="System.String" DbType="Char(15)" CanBeNull="true" />
+      <Column Name="PaxApe1" Type="System.String" DbType="Char(15)" CanBeNull="true" />
+      <Column Name="PaxFecNac" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PaxSex" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="PaxNac" Type="System.String" DbType="Char(3)" CanBeNull="true" />
+      <Column Name="PaxRuc" Type="System.Decimal" DbType="Decimal(15,0)" CanBeNull="true" />
+      <Column Name="PaxOcu" Type="System.String" DbType="Char(3)" CanBeNull="true" />
+      <Column Name="PaxCiv" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="PaxDir" Type="System.String" DbType="Char(40)" CanBeNull="true" />
+      <Column Name="Paxdescu" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="PaxDirLoc" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="PaxDirPais" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="PaxTel" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="PaxFax" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="PaxEmail" Type="System.String" DbType="Char(40)" CanBeNull="true" />
+      <Column Name="PaxCP" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="PaxObs" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="PaxTipDoc" Type="System.String" DbType="Char(2)" CanBeNull="true" />
+      <Column Name="PaxNroDoc" Type="System.String" DbType="Char(15)" CanBeNull="true" />
+      <Column Name="PaxEst" Type="System.String" DbType="Char(3)" CanBeNull="true" />
+      <Column Name="PaxEstPax" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="PaxEveFec" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CliBanId" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="CliBanSuc" Type="System.String" DbType="Char(40)" CanBeNull="true" />
+      <Column Name="CliBanCue" Type="System.Decimal" DbType="Decimal(15,0)" CanBeNull="true" />
+      <Column Name="CliBanTit" Type="System.String" DbType="Char(40)" CanBeNull="true" />
+      <Column Name="CliBanMonId" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="CliFecPag" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CliTopMN" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="CliTopME" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="CliSalMN" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="CliSalME" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="CliEntCtaPes" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="CliEntCtaDol" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="DepCod" Type="System.String" DbType="Char(3)" CanBeNull="true" />
+      <Column Name="PaxPlaCier" Type="System.String" DbType="Char(15)" CanBeNull="true" />
+      <Column Name="CliDsc" Type="System.String" DbType="Char(40)" CanBeNull="true" />
+      <Column Name="PaxProced" Type="System.String" DbType="Char(15)" CanBeNull="true" />
+      <Column Name="PaxIngreso" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PaxEdades" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="PaxUltEstadia" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ContId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PaxEsquina" Type="System.String" DbType="Char(40)" CanBeNull="true" />
+      <Column Name="PaxCodMan" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="PaxPlaCtaCTra" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TipoDeDocumentoComprador" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="ResponsabilidadIvaComprador" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="PaxControlTopeCredito" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="PaxCanje" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="PaxDepFac" Type="System.String" DbType="Char(30)" CanBeNull="true" />
+      <Column Name="PaxCiuFac" Type="System.String" DbType="Char(30)" CanBeNull="true" />
+      <Column Name="PaxLisId" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="PaxLey15921" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="PaxNumApartamento" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="PaxNumBis" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="PaxTipoCasaDelivery" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="PaxNumeroDePuerta" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="PaxEsquina2" Type="System.String" DbType="Char(40)" CanBeNull="true" />
+      <Column Name="PaxBarId" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="ConVenId" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="Pax0ExportacionId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
