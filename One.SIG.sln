@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "One.SIG.Sistema.Datos.Parad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "One.SIG.Sistema.Datos.Modelo", "One.SIG.Sistema.Datos.Modelo\One.SIG.Sistema.Datos.Modelo.csproj", "{A23F2AB0-9E4F-4E01-82CA-8FD043DFC808}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "One.SIG.Sistema.Datos.AWSDynamoDB", "One.SIG.Sistema.Datos.AWSDynamoDB\One.SIG.Sistema.Datos.AWSDynamoDB.csproj", "{767AE15E-5444-4C4E-9955-35E820177FD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "One.SIG.Consola", "One.SIG.Consola\One.SIG.Consola.csproj", "{B1715CE1-0D50-43DC-BD06-9742E31AC021}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{A23F2AB0-9E4F-4E01-82CA-8FD043DFC808}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A23F2AB0-9E4F-4E01-82CA-8FD043DFC808}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A23F2AB0-9E4F-4E01-82CA-8FD043DFC808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{767AE15E-5444-4C4E-9955-35E820177FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{767AE15E-5444-4C4E-9955-35E820177FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{767AE15E-5444-4C4E-9955-35E820177FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{767AE15E-5444-4C4E-9955-35E820177FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1715CE1-0D50-43DC-BD06-9742E31AC021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1715CE1-0D50-43DC-BD06-9742E31AC021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1715CE1-0D50-43DC-BD06-9742E31AC021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1715CE1-0D50-43DC-BD06-9742E31AC021}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

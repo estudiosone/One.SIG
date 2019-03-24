@@ -104,6 +104,12 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\One.SIG.Sistema.Datos.AWSDynamoDB\One.SIG.Sistema.Datos.AWSDynamoDB.csproj">
+      <Project>{767ae15e-5444-4c4e-9955-35e820177fd0}</Project>
+      <Name>One.SIG.Sistema.Datos.AWSDynamoDB</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

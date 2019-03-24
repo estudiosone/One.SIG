@@ -8,6 +8,6 @@ namespace One.SIG.Sistema.Datos.Modelo
 {
     public class Clientes
     {
-        public  MyProperty { get; set; }
+        //public  MyProperty { get; set; }
     }
 }
